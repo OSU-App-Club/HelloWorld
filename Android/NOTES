@@ -1,0 +1,34 @@
+Hello world android
+
+New->Android Application Project
+Set minimum sdk: 3.0 is probablly good
+Create custom icon (or use default)
+Using defaults
+Pick activity
+Blank activity
+Master-detail is for tablets
+Create
+	
+
+Top says helloworld, but that is just the name of the app
+Where code lives: res folder
+Values->Strings.xml 
+Where you store information about strings on the screen
+Mapping layout->activity_main.xml to string information
+
+src->com.helloword->MainActivity.java
+
+
+in onCreate()
+Where the code starts
+create button that references resource button 1 from xml
+use final because is static in xml
+set onClickListener()
+Define onCLick(View v){}
+Toast is used to provide brief message
+Toast.makeText()
+Toast.show()
+
+Other notes:
+	Set Android Virtual Device (AVD)
+	Mock device for testing
